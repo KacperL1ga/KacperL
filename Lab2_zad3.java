@@ -16,25 +16,25 @@ public class Lab2_zad3 {
         return liczba;
     }
     public static void zadanie2(int x, int y, int z) {
-        int temp;
+        int zmienna;
 
-        // Sortowanie liczb od najmniejszej do największej
+        // Sortowanie liczb od najmniejszej do najwiekszej
         if (x > y) {
-            temp = x;
+            zmienna = x;
             x = y;
-            y = temp;
+            y = zmienna;
         }
         if (y > z) {
-            temp = y;
+            zmienna = y;
             y = z;
-            z = temp;
+            z = zmienna;
         }
         if (x > y) {
-            temp = x;
+            zmienna = x;
             x = y;
-            y = temp;
+            y = zmienna;
         }
 
-        System.out.println("Liczby w porządku rosnącym: " + x + ", " + y + ", " + z);
+        System.out.println("Liczby w porzadku rosnacym: " + x + ", " + y + ", " + z);
     }
 }
